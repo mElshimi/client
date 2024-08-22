@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: #06b6d4;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #06b6d4;
+}
+
+.Toastify__toast-theme--dark {
+  background-color: #334155 !important;
+}
+
+.bgAuth {
+  background-image: url("./assets/imgs/225708.jpeg.webp");
+  height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* backgr */
+}
+
+@media (max-width: 1024px) {
+  .resSrc {
+    background-image: url("./assets//imgs/225708.jpeg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    min-height: 100vh !important;
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.418), #000);
+    color: #fff;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #fff !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.navOpen {
+  left: 228px;
+  right: 0;
+  top: 0;
+}
+.navclose {
+  left: 64px;
+  right: 0;
+  top: 0;
+}
